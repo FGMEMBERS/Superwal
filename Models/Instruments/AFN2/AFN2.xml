@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>AFN2.ac</path>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>RichtNadel</object-name>
+  <property>/instrumentation/nav[0]/heading-needle-deflection</property>
+  <min-deg>-25</min-deg>
+  <max-deg>25</max-deg>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0.02</z-m>
+ </center>
+ <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+ </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>EntfNadel</object-name>
+  <property>/instrumentation/nav[0]/nav-distance</property>
+  <factor>-0.05</factor>
+  <min-deg>-45</min-deg>
+  <max-deg>45</max-deg>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0.02</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+</PropertyList>
+
+

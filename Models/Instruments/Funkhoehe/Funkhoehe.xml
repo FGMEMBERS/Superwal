@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>Funkhoehe.ac</path>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Nadel</object-name>
+  <property>/position/altitude-agl-ft</property>
+  <interpolation>
+   <entry><ind>  0</ind><dep> 0</dep></entry>     
+   <entry><ind>  164</ind><dep> 55</dep></entry>     
+   <entry><ind> 328</ind><dep> 142</dep></entry>     
+   <entry><ind> 495</ind><dep> 215</dep></entry>     
+  </interpolation>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+</PropertyList>
+
+

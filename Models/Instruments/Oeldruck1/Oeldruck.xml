@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>Oeldruck.ac</path>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Nadel</object-name>
+  <property>/engines/engine[1]/rpm</property>
+  <interpolation>
+   <entry><ind> 0.0</ind><dep> 0</dep></entry>     
+   <entry><ind> 100</ind><dep> 17</dep></entry>     
+   <entry><ind> 300</ind><dep> 45</dep></entry>     
+   <entry><ind> 1000</ind><dep> 102</dep></entry>     
+   <entry><ind> 6000</ind><dep> 160</dep></entry>     
+   <entry><ind> 7000</ind><dep> 215</dep></entry>     
+   <entry><ind> 8000</ind><dep> 275</dep></entry>     
+  </interpolation>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+</PropertyList>
+
+

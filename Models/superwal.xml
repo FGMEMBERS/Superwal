@@ -1,0 +1,376 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>Superwal.ac</path>
+
+ <model>
+  <path>Aircraft/Superwal/Models/cockpit.xml</path>
+  <offsets>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </offsets>
+ </model>
+
+ <!-- Propeller -->
+
+ <animation>
+  <type>noshadow</type>
+  <object-name>Propeller0_spin</object-name>
+  <object-name>Propeller1_spin</object-name>
+  <object-name>Propeller2_spin</object-name>
+  <object-name>Propeller3_spin</object-name>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>Propeller0</object-name>
+  <condition>
+   <less-than>
+    <property>/engines/engine[0]/rpm</property>
+    <value>350</value>
+   </less-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>Propeller1</object-name>
+  <condition>
+   <less-than>
+    <property>/engines/engine[1]/rpm</property>
+    <value>350</value>
+   </less-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>Propeller2</object-name>
+  <condition>
+   <less-than>
+    <property>/engines/engine[2]/rpm</property>
+    <value>350</value>
+   </less-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>Propeller3</object-name>
+  <condition>
+   <less-than>
+    <property>/engines/engine[3]/rpm</property>
+    <value>350</value>
+   </less-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>Propeller0_spin</object-name>
+  <condition>
+   <greater-than>
+    <property>/engines/engine[0]/rpm</property>
+    <value>350</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>Propeller1_spin</object-name>
+  <condition>
+   <greater-than>
+    <property>/engines/engine[1]/rpm</property>
+    <value>350</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>Propeller2_spin</object-name>
+  <condition>
+   <greater-than>
+    <property>/engines/engine[2]/rpm</property>
+    <value>350</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>select</type>
+  <object-name>Propeller3_spin</object-name>
+  <condition>
+   <greater-than>
+    <property>/engines/engine[3]/rpm</property>
+    <value>350</value>
+   </greater-than>
+  </condition>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>Propeller0</object-name>
+  <property>/engines/engine[0]/rpm</property>
+  <center>
+   <x-m>-3.2</x-m>
+   <y-m>-1.9</y-m>
+   <z-m>4.2</z-m>
+  </center>
+  <axis>
+   <x>-1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>Propeller0_spin</object-name>
+  <property>/engines/engine[0]/rpm</property>
+  <factor>0.01</factor>
+  <center>
+   <x-m>-3.2</x-m>
+   <y-m>-1.9</y-m>
+   <z-m>4.2</z-m>
+  </center>
+  <axis>
+   <x>-1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>Propeller1</object-name>
+  <property>/engines/engine[1]/rpm</property>
+  <center>
+   <x-m>3.2</x-m>
+   <y-m>-1.9</y-m>
+   <z-m>4.2</z-m>
+  </center>
+  <axis>
+   <x>-1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>Propeller1_spin</object-name>
+  <property>/engines/engine[1]/rpm</property>
+  <factor>0.01</factor>
+  <center>
+   <x-m>3.2</x-m>
+   <y-m>-1.9</y-m>
+   <z-m>4.2</z-m>
+  </center>
+  <axis>
+   <x>-1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>Propeller2</object-name>
+  <property>/engines/engine[2]/rpm</property>
+  <center>
+   <x-m>-3.2</x-m>
+   <y-m>1.9</y-m>
+   <z-m>4.2</z-m>
+  </center>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>Propeller2_spin</object-name>
+  <property>/engines/engine[2]/rpm</property>
+  <factor>0.01</factor>
+  <center>
+   <x-m>-3.2</x-m>
+   <y-m>1.9</y-m>
+   <z-m>4.2</z-m>
+  </center>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>Propeller3</object-name>
+  <property>/engines/engine[3]/rpm</property>
+  <center>
+   <x-m>3.2</x-m>
+   <y-m>1.9</y-m>
+   <z-m>4.2</z-m>
+  </center>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>spin</type>
+  <object-name>Propeller3_spin</object-name>
+  <property>/engines/engine[3]/rpm</property>
+  <factor>0.01</factor>
+  <center>
+   <x-m>3.2</x-m>
+   <y-m>1.9</y-m>
+   <z-m>4.2</z-m>
+  </center>
+  <axis>
+   <x>1.0</x>
+   <y>0.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <!-- Aileron -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Aileron_l</object-name>
+  <property>/controls/flight/aileron</property>
+  <factor>15.0</factor> <!-- fixme -->
+  <center>
+   <x-m>2.9</x-m>
+   <y-m>0.0</y-m>
+   <z-m>3.2</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Aileron_r</object-name>
+  <property>/controls/flight/aileron</property>
+  <factor>-15.0</factor> <!-- fixme -->
+  <center>
+   <x-m>2.9</x-m>
+   <y-m>0.0</y-m>
+   <z-m>3.2</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+
+ <!-- Elevator -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Elevator</object-name>
+  <property>/surface-positions/elevator-pos-norm</property>
+  <factor>10.0</factor> <!-- fixme -->
+  <center>
+   <x-m>13.9</x-m>
+   <y-m>0.0</y-m>
+   <z-m>3.6</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>1.0</y>
+   <z>0.0</z>
+  </axis>
+ </animation>
+
+ <!-- rudder -->
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Rudder</object-name>
+  <property>/surface-positions/rudder-pos-norm</property>
+  <factor>-15.0</factor> <!-- fixme -->
+  <center>
+   <x-m>13.9</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.0</z-m>
+  </center>
+  <axis>
+   <x>0.0</x>
+   <y>0.0</y>
+   <z>1.0</z>
+  </axis>
+ </animation>
+
+<!-- Schatten  -->
+<!-- pitch -->
+ <animation>
+  <type>rotate</type>
+  <object-name>Schatten</object-name>
+  <property>/orientation/pitch-deg</property>
+  <factor>-1.0</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+<!-- roll -->
+ <animation>
+  <type>rotate</type>
+  <object-name>Schatten</object-name>
+  <property>/orientation/roll-deg</property>
+  <factor>1.0</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+<!-- Translate to ground level -->
+ <animation>
+  <type>translate</type>
+  <object-name>Schatten</object-name>
+  <property>/position/altitude-agl-ft</property>
+  <factor>-0.3</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+</PropertyList>

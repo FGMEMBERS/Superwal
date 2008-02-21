@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+ <path>Variometer.ac</path>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Nadel</object-name>
+  <property>/instrumentation/vertical-speed-indicator/indicated-speed-fpm</property>
+  <interpolation>
+   <entry>
+    <ind>-2953</ind>
+    <dep>160</dep>
+   </entry>
+   <entry>
+    <ind>-2362</ind>
+    <dep>127</dep>
+   </entry>
+   <entry>
+    <ind>-1771</ind>
+    <dep>90</dep>
+   </entry>
+   <entry>
+    <ind>-885</ind>
+    <dep>53</dep>
+   </entry>
+   <entry>
+    <ind>0</ind>
+    <dep>0</dep>
+   </entry>
+   <entry>
+    <ind>885</ind>
+    <dep>-53</dep>
+   </entry>
+   <entry>
+    <ind>1771</ind>
+    <dep>-90</dep>
+   </entry>
+   <entry>
+    <ind>2362</ind>
+    <dep>-127</dep>
+   </entry>
+   <entry>
+    <ind>2953</ind>
+    <dep>-160</dep>
+   </entry>
+  </interpolation>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+</PropertyList>
