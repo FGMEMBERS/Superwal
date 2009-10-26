@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+ <PropertyList>
+
+  <submodel>
+    <name>Hecksee</name>
+    <model>Aircraft/Superwal/Models/Wellen/Hecksee.ac</model>
+    <trigger>gear/gear[0]/wow</trigger>
+    <speed>0</speed>
+    <repeat>true</repeat>
+    <delay>0.1</delay>
+    <count>-1</count>
+    <x-offset> 0.0 </x-offset>
+    <y-offset> 0.0 </y-offset>
+    <z-offset> 0.0 </z-offset>
+    <buoyancy>32</buoyancy>
+    <life>8</life>
+    <wind>false</wind>
+    <eda>100</eda>
+    <no-roll>true</no-roll>
+  </submodel>
+
+</PropertyList>

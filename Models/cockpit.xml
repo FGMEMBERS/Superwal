@@ -40,7 +40,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Drehzahlmess0/Drehzahlmess.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Drehzahlmess/Drehzahlmess0.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-1.0</y-m>
@@ -49,7 +49,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Drehzahlmess1/Drehzahlmess.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Drehzahlmess/Drehzahlmess1.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.9</y-m>
@@ -58,7 +58,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Drehzahlmess2/Drehzahlmess.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Drehzahlmess/Drehzahlmess2.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.8</y-m>
@@ -67,7 +67,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Drehzahlmess3/Drehzahlmess.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Drehzahlmess/Drehzahlmess3.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.7</y-m>
@@ -121,7 +121,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Tankanzeige0/Tankanzeige.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Tankanzeige/Tankanzeige0.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-1.025</y-m>
@@ -132,7 +132,7 @@
  <!--
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Tankanzeige1/Tankanzeige.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Tankanzeige/Tankanzeige1.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.975</y-m>
@@ -141,7 +141,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Tankanzeige2/Tankanzeige.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Tankanzeige/Tankanzeige2.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.925</y-m>
@@ -150,7 +150,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Tankanzeige3/Tankanzeige.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Tankanzeige/Tankanzeige3.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.875</y-m>
@@ -170,7 +170,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Zuendschalter0/Zuendschalter.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Zuendschalter/Zuendschalter0.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.9</y-m>
@@ -179,7 +179,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Zuendschalter1/Zuendschalter.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Zuendschalter/Zuendschalter1.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.87</y-m>
@@ -188,7 +188,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Zuendschalter2/Zuendschalter.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Zuendschalter/Zuendschalter2.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.83</y-m>
@@ -197,7 +197,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Zuendschalter3/Zuendschalter.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Zuendschalter/Zuendschalter3.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.8</y-m>
@@ -215,7 +215,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Oeldruck0/Oeldruck.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Oeldruck/Oeldruck0.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-1.025</y-m>
@@ -224,7 +224,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Oeldruck1/Oeldruck.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Oeldruck/Oeldruck1.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.975</y-m>
@@ -233,7 +233,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Oeldruck2/Oeldruck.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Oeldruck/Oeldruck2.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.925</y-m>
@@ -242,7 +242,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Oeldruck3/Oeldruck.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Oeldruck/Oeldruck3.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.875</y-m>
@@ -251,7 +251,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Schmierstofftemp0/Schmierstofftemp.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Schmierstofftemp/Schmierstofftemp0.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.825</y-m>
@@ -260,7 +260,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Schmierstofftemp1/Schmierstofftemp.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Schmierstofftemp/Schmierstofftemp1.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.775</y-m>
@@ -269,7 +269,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Schmierstofftemp2/Schmierstofftemp.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Schmierstofftemp/Schmierstofftemp2.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.725</y-m>
@@ -278,7 +278,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Schmierstofftemp3/Schmierstofftemp.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Schmierstofftemp/Schmierstofftemp3.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.675</y-m>
@@ -287,7 +287,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Kraftstoffdruck0/Kraftstoffdruck.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Kraftstoffdruck/Kraftstoffdruck0.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.825</y-m>
@@ -296,7 +296,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Kraftstoffdruck1/Kraftstoffdruck.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Kraftstoffdruck/Kraftstoffdruck1.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.775</y-m>
@@ -305,7 +305,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Kraftstoffdruck2/Kraftstoffdruck.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Kraftstoffdruck/Kraftstoffdruck2.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.725</y-m>
@@ -314,7 +314,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Superwal/Models/Instruments/Kraftstoffdruck3/Kraftstoffdruck.xml</path>
+  <path>Aircraft/Superwal/Models/Instruments/Kraftstoffdruck/Kraftstoffdruck3.xml</path>
   <offsets>
    <x-m>-3.08</x-m>
    <y-m>-0.675</y-m>
