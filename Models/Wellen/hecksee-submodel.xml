@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+ <PropertyList>
+
+
+ <path>Hecksee.ac</path>
+
+ <animation>
+  <type>select</type>
+  <object-name>Hecksee</object-name>
+  <condition>
+   <and>
+     <greater-than>
+      <property>/velocities/airspeed-kt</property>
+      <value>15</value>
+     </greater-than>
+     <not>
+      <property>/sim/crashed</property>
+     </not>
+   </and>
+  </condition>
+ </animation>
+
+ <animation>
+   <object-name>Hecksee</object-name>
+   <enable-hot>false</enable-hot>
+ </animation>
+
+</PropertyList>

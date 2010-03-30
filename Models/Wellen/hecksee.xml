@@ -4,7 +4,7 @@
 
   <submodel>
     <name>Hecksee</name>
-    <model>Aircraft/Superwal/Models/Wellen/Hecksee.ac</model>
+    <model>Aircraft/Superwal/Models/Wellen/hecksee-submodel.xml</model>
     <trigger>gear/gear[0]/wow</trigger>
     <speed>0</speed>
     <repeat>true</repeat>
