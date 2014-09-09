@@ -1,0 +1,341 @@
+<?xml version="1.0"?>
+ 
+<PropertyList>
+
+ <fx>
+
+<!-- Engine 0 -->
+
+  <crank>
+   <name>engstart0</name>
+   <path>Sounds/engstart.wav</path>
+   <property>/engines/engine[0]/cranking</property>
+   <position>
+    <x>3.0</x>
+    <y>-1.9</y>
+    <z>4.2</z>
+   </position>
+   <volume>
+    <offset>0.4</offset>
+   </volume>
+  </crank>
+
+  <crank>
+   <name>crank0</name>
+   <mode>looped</mode>
+   <path>Sounds/cranking.wav</path>
+   <condition>
+    <property>/engines/engine[0]/cranking</property>
+    <not>
+     <property>/engines/engine[0]/running</property>
+    </not>
+   </condition>
+   <position>
+    <x>3.0</x>
+    <y>-1.9</y>
+    <z>4.2</z>
+   </position>
+   <volume>
+    <offset>0.5</offset>
+   </volume>
+  </crank>
+
+  <crank>
+   <name>cough0</name>
+   <path>Sounds/coughing.wav</path>
+   <property>/engines/engine[0]/running</property>
+   <position>
+    <x>3.0</x>
+    <y>-1.9</y>
+    <z>4.2</z>
+   </position>
+   <volume>
+    <offset>0.3</offset>
+   </volume>
+  </crank>
+
+  <engine>
+   <name>engine0</name>
+   <mode>looped</mode>
+   <path>Sounds/wasp.wav</path>
+   <property>/engines/engine[0]/running</property>
+   <position>
+    <x>3.0</x>
+    <y>-1.9</y>
+    <z>4.2</z>
+   </position>
+   <volume>
+    <property>/engines/engine[0]/mp-osi</property>
+    <factor>0.009</factor>
+    <min>0.15</min>
+    <max>0.6</max>
+    <offset>0.15</offset>
+   </volume>
+   <pitch>
+    <property>/engines/engine[0]/rpm</property>
+    <factor>0.0004</factor>
+    <min>0.1</min>
+    <max>2.0</max>
+    <offset>0.3</offset>
+   </pitch>
+  </engine>
+
+ 
+<!-- Engine 1 -->
+
+  <crank>
+   <name>engstart1</name>
+   <path>Sounds/engstart.wav</path>
+   <property>/engines/engine[1]/cranking</property>
+   <position>
+    <x>-3.0</x>
+    <y>-1.9</y>
+    <z>4.2</z>
+   </position>
+   <volume>
+    <offset>0.4</offset>
+   </volume>
+  </crank>
+
+  <crank>
+   <name>crank1</name>
+   <mode>looped</mode>
+   <path>Sounds/cranking.wav</path>
+   <condition>
+    <property>/engines/engine[1]/cranking</property>
+    <not>
+     <property>/engines/engine[1]/running</property>
+    </not>
+   </condition>
+   <position>
+    <x>-3.0</x>
+    <y>-1.9</y>
+    <z>4.2</z>
+   </position>
+   <volume>
+    <offset>0.5</offset>
+   </volume>
+  </crank>
+
+  <crank>
+   <name>cough1</name>
+   <path>Sounds/coughing.wav</path>
+   <property>/engines/engine[1]/running</property>
+   <position>
+    <x>-3.0</x>
+    <y>-1.9</y>
+    <z>4.2</z>
+   </position>
+   <volume>
+    <offset>0.3</offset>
+   </volume>
+  </crank>
+
+  <engine>
+   <name>engine1</name>
+   <mode>looped</mode>
+   <path>Sounds/wasp.wav</path>
+   <property>/engines/engine[1]/running</property>
+   <position>
+    <x>-3.0</x>
+    <y>-1.9</y>
+    <z>4.2</z>
+   </position>
+   <volume>
+    <property>/engines/engine[1]/mp-osi</property>
+    <factor>0.009</factor>
+    <min>0.15</min>
+    <max>0.6</max>
+    <offset>0.15</offset>
+   </volume>
+   <pitch>
+    <property>/engines/engine[1]/rpm</property>
+    <factor>0.0004</factor>
+    <min>0.1</min>
+    <max>2.0</max>
+    <offset>0.3</offset>
+   </pitch>
+  </engine>
+
+<!-- Engine 2 -->
+
+  <crank>
+   <name>engstart2</name>
+   <path>Sounds/engstart.wav</path>
+   <property>/engines/engine[2]/cranking</property>
+   <position>
+    <x>3.0</x>
+    <y>1.9</y>
+    <z>4.2</z>
+   </position>
+   <volume>
+    <offset>0.4</offset>
+   </volume>
+  </crank>
+
+  <crank>
+   <name>crank2</name>
+   <mode>looped</mode>
+   <path>Sounds/cranking.wav</path>
+   <condition>
+    <property>/engines/engine[2]/cranking</property>
+    <not>
+     <property>/engines/engine[2]/running</property>
+    </not>
+   </condition>
+   <position>
+    <x>3.0</x>
+    <y>1.9</y>
+    <z>4.2</z>
+   </position>
+   <volume>
+    <offset>0.5</offset>
+   </volume>
+  </crank>
+
+  <crank>
+   <name>cough2</name>
+   <path>Sounds/coughing.wav</path>
+   <property>/engines/engine[2]/running</property>
+   <position>
+    <x>3.0</x>
+    <y>1.9</y>
+    <z>4.2</z>
+   </position>
+   <volume>
+    <offset>0.0</offset>
+   </volume>
+  </crank>
+
+  <engine>
+   <name>engine2</name>
+   <mode>looped</mode>
+   <path>Sounds/wasp.wav</path>
+   <property>/engines/engine[2]/running</property>
+   <position>
+    <x>3.0</x>
+    <y>1.9</y>
+    <z>4.2</z>
+   </position>
+   <volume>
+    <property>/engines/engine[2]/mp-osi</property>
+    <factor>0.009</factor>
+    <min>0.15</min>
+    <max>0.6</max>
+    <offset>0.15</offset>
+   </volume>
+   <pitch>
+    <property>/engines/engine[2]/rpm</property>
+    <factor>0.0004</factor>
+    <min>0.1</min>
+    <max>2.0</max>
+    <offset>0.3</offset>
+   </pitch>
+  </engine>
+
+<!-- Engine 3 -->
+
+  <crank>
+   <name>engstart3</name>
+   <path>Sounds/engstart.wav</path>
+   <property>/engines/engine[3]/cranking</property>
+   <position>
+    <x>-3.0</x>
+    <y>1.9</y>
+    <z>4.2</z>
+   </position>
+   <volume>
+    <offset>0.4</offset>
+   </volume>
+  </crank>
+
+  <crank>
+   <name>crank3</name>
+   <mode>looped</mode>
+   <path>Sounds/cranking.wav</path>
+   <condition>
+    <property>/engines/engine[3]/cranking</property>
+    <not>
+     <property>/engines/engine[3]/running</property>
+    </not>
+   </condition>
+   <position>
+    <x>-3.0</x>
+    <y>1.9</y>
+    <z>4.2</z>
+   </position>
+   <volume>
+    <offset>0.5</offset>
+   </volume>
+  </crank>
+
+  <crank>
+   <name>cough3</name>
+   <path>Sounds/coughing.wav</path>
+   <property>/engines/engine[3]/running</property>
+   <position>
+    <x>-3.0</x>
+    <y>1.9</y>
+    <z>4.2</z>
+   </position>
+   <volume>
+    <offset>0.0</offset>
+   </volume>
+  </crank>
+
+  <engine>
+   <name>engine3</name>
+   <mode>looped</mode>
+   <path>Sounds/wasp.wav</path>
+   <property>/engines/engine[3]/running</property>
+   <position>
+    <x>-3.0</x>
+    <y>1.9</y>
+    <z>4.2</z>
+   </position>
+   <volume>
+    <property>/engines/engine[3]/mp-osi</property>
+    <factor>0.009</factor>
+    <min>0.15</min>
+    <max>0.6</max>
+    <offset>0.15</offset>
+   </volume>
+   <pitch>
+    <property>/engines/engine[3]/rpm</property>
+    <factor>0.0004</factor>
+    <min>0.1</min>
+    <max>2.0</max>
+    <offset>0.3</offset>
+   </pitch>
+  </engine>
+
+<!-- others -->
+
+  <wind>
+   <name>wind</name>
+   <mode>looped</mode>
+   <path>Sounds/wind.wav</path>
+   <property>/velocities/airspeed-kt</property>
+   <volume>
+    <property>/position/altitude-ft</property>
+    <factor>-0.000015</factor>
+    <offset>1.0</offset>
+    <min>0.1</min>
+    <max>1.0</max>
+   </volume>
+   <volume>
+     <property>/velocities/airspeed-kt</property>
+     <factor>0.0015</factor>
+     <min>0.03</min>
+     <max>0.25</max>
+   </volume>
+   <pitch>
+    <property>/velocities/airspeed-kt</property>
+    <factor>0.01</factor>
+    <offset>1.25</offset>
+   </pitch>
+  </wind>
+
+</fx>
+ 
+</PropertyList>

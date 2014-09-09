@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>Fahrtmess.ac</path>
+
+ <animation>
+   <type>rotate</type>
+   <object-name>Nadel</object-name>
+   <property>/velocities/airspeed-kt</property>
+   <interpolation>
+     <entry><ind>  0</ind><dep>    0</dep></entry>
+     <entry><ind> 27</ind><dep>   11</dep></entry>
+     <entry><ind> 54</ind><dep>  65</dep></entry>
+     <entry><ind> 81</ind><dep>  124</dep></entry>
+     <entry><ind> 108</ind><dep>  180</dep></entry>
+     <entry><ind> 135</ind><dep>  240</dep></entry>
+     <entry><ind> 162</ind><dep>  293</dep></entry>
+     <entry><ind> 189</ind><dep>  345</dep></entry>
+   </interpolation>
+   <axis>
+     <x>-1.0</x>
+   </axis>
+ </animation>
+
+</PropertyList>

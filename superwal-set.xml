@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<!--
+Manufacturer Dornier
+DO R 4 Nas Pottwal
+Used by Lufthansa since 1929
+Engines 4 Napier V Lion
+Empty 9850kg, load 4150 kg, flying weight 14000 kg, fuel capacity 4 x 600 l, 4 x 285 l
+Max. speed 210 km/h, cruising speed 190 km/h, landing speed 115 km/h, service ceiling 1500 m, range 1500 km
+-->
+
+<PropertyList>
+ <sim>
+
+  <description>Dornier Superwal (YASIM)</description>
+  <author>Oliver Predelli</author>
+  <status>production</status>
+  <license>GPL v2</license>
+
+  <flight-model>yasim</flight-model>
+  <aero>superwal</aero>
+  <fuel-fraction>0.8</fuel-fraction>
+  
+  <startup>
+   <splash-texture>Aircraft/Superwal/Superwal_Air.rgb</splash-texture>
+  </startup>
+
+  <sound>
+   <path>Aircraft/Superwal/superwal-sound.xml</path>
+  </sound>
+
+  <panel>
+   <visibility archive="n">false</visibility>
+  </panel>
+
+  <model>
+   <path archive="y">Aircraft/Superwal/Models/superwal.xml</path>
+  </model>
+  
+  <submodels>
+    <serviceable>true</serviceable>
+    <path>Aircraft/Superwal/Models/Wellen/hecksee.xml</path>
+  </submodels>
+  
+  <view>
+   <internal archive="y">true</internal>
+   <config>
+     <x-offset-m archive="y">-1.25</x-offset-m>
+     <y-offset-m archive="y">2.5</y-offset-m>
+     <z-offset-m archive="y">-2.3</z-offset-m>
+     <pitch-offset-deg>-2</pitch-offset-deg>
+   </config>
+  </view>
+
+  <help>
+    <title>Dornier Superwal</title>
+    <line>This flying boat can only land on water. Use the menubar to define the initial altitude.</line>
+    <line> </line>
+    <line>Max. speed 210 km/h, cruising speed 190 km/h, landing speed 115 km/h.</line>
+    <line> </line>
+    <line>Main instruments left:</line>
+    <line>course indicator (use ADF to program)</line>
+    <line>airspeed, turn indicator, variometer</line>
+    <line>radio altitude, altimeter, artificial horizon</line>
+    <line> </line>
+    <line>Main instruments centre:</line>
+    <line>clock, engine speed (portside front, portside aft, starboard front, starboard aft)</line>
+    <line>oil pressure (4x), oil temperature (4x)</line>
+    <line>pitch indicator, fuel gauge, fuel pressure (4x)</line>
+    <line>magnetos (4x)</line>
+    <line> </line>
+  </help>
+
+ </sim>
+
+ <yasim>
+  <superwal>
+   <pilot-lb>180</pilot-lb>
+  </superwal>
+ </yasim>
+
+ <controls>
+  <engines>
+   <engine n="0">
+    <magnetos>3</magnetos>
+   </engine>
+   <engine n="1">
+    <magnetos>3</magnetos>
+   </engine>
+   <engine n="2">
+    <magnetos>3</magnetos>
+   </engine>
+   <engine n="3">
+    <magnetos>3</magnetos>
+   </engine>
+  </engines>
+ </controls>
+
+ <engines>
+  <engine>
+   <rpm type="double">0</rpm>
+  </engine>
+  <engine>
+   <rpm type="double">0</rpm>
+  </engine>
+  <engine>
+   <rpm type="double">0</rpm>
+  </engine>
+  <engine>
+   <rpm type="double">0</rpm>
+  </engine>
+ </engines>
+
+ <consumables>
+  <fuel>
+   <tank n="1">
+    <level-gal_us type="double">0</level-gal_us>
+   </tank>
+  </fuel>
+ </consumables>
+
+</PropertyList>

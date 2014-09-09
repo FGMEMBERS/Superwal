@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>Kraftstoffdruck.ac</path>
+
+ <animation>
+  <type>rotate</type>
+  <object-name>Nadel</object-name>
+  <property>/engines/engine[2]/rpm</property>
+  <interpolation>
+   <entry><ind> 0.0</ind><dep> 50</dep></entry>     
+   <entry><ind> 200</ind><dep> 80</dep></entry>     
+   <entry><ind> 1000</ind><dep> 135</dep></entry>     
+   <entry><ind> 4000</ind><dep> 190</dep></entry>     
+   <entry><ind> 5000</ind><dep> 255</dep></entry>     
+   <entry><ind> 6000</ind><dep> 310</dep></entry>     
+  </interpolation>
+  <axis>
+   <x>-1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+</PropertyList>
+
+

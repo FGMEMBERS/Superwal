@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+ <path>Bugwelle.ac</path>
+
+<!-- activation -->
+ <animation>
+  <type>select</type>
+  <object-name>Bugwelle</object-name>
+  <condition>
+   <and>
+   <less-than>
+    <property>/position/altitude-ft</property>
+    <value>0.6</value>
+   </less-than>
+   <greater-than>
+    <property>/velocities/airspeed-kt</property>
+    <value>17</value>
+   </greater-than>
+   <not>
+    <property>/sim/crashed</property>
+   </not>
+   </and>
+  </condition>
+ </animation>
+
+<!-- water animation -->
+ <animation>
+  <type>texrotate</type>
+  <object-name>Bugwelle</object-name>
+  <property>/sim/time/elapsed-sec</property>
+  <factor>50.0</factor>
+  <center>
+    <x>0.0</x>
+    <y>0.0</y>
+    <z>0.0</z>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+<!-- pitch -->
+ <animation>
+  <type>rotate</type>
+  <object-name>Bugwelle</object-name>
+  <property>/orientation/pitch-deg</property>
+  <factor>-1.0</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>0</x>
+   <y>1</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+<!-- roll -->
+ <animation>
+  <type>rotate</type>
+  <object-name>Bugwelle</object-name>
+  <property>/orientation/roll-deg</property>
+  <factor>1.0</factor>
+  <center>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+  </center>
+  <axis>
+   <x>1</x>
+   <y>0</y>
+   <z>0</z>
+  </axis>
+ </animation>
+
+<!-- hight -->
+ <animation>
+  <type>translate</type>
+  <object-name>Bugwelle</object-name>
+  <property>/velocities/uBody-fps</property>
+  <interpolation>
+   <entry><ind> 100</ind><dep> 0.5</dep></entry>     
+   <entry><ind>  10</ind><dep> 0.0</dep></entry>     
+   <entry><ind> 0.0</ind><dep> 0.0</dep></entry>     
+  </interpolation>
+  <axis>
+   <x>0</x>
+   <y>0</y>
+   <z>1</z>
+  </axis>
+ </animation>
+
+</PropertyList>
