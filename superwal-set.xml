@@ -21,7 +21,10 @@ Max. speed 210 km/h, cruising speed 190 km/h, landing speed 115 km/h, service ce
   <fuel-fraction>0.8</fuel-fraction>
   
   <startup>
-   <splash-texture>Aircraft/Superwal/Superwal_Air.rgb</splash-texture>
+   <!--<splash-texture>Aircraft/Superwal/Superwal_Air.rgb</splash-texture>-->
+     <splash-texture>Aircraft/Superwal/Splash/splash1.png</splash-texture>
+     <splash-texture>Aircraft/Superwal/Splash/splash2.png</splash-texture>
+     <splash-texture>Aircraft/Superwal/Splash/splash3.png</splash-texture>
   </startup>
 
   <sound>
